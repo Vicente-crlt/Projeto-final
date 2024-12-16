@@ -53,6 +53,55 @@
             <img src="ratatouile.png" height="100" width="200">
        </div>
     </section>
+    <div class="item-4">Diretores dos filmes em destaques</div>
+    <section class="pai2">
+      <div class="card">
+  <img src="diretor3.png" alt="Clyde Geronimi" width="200" height="200">
+  <h2>Clyde Geronimi</h2>
+  <p>Diretor de  cinderela</p>
+</div>
+
+<div class="card">
+  <img src="diretor2.png" alt="Jennifer Lee" width="200" height="200">
+  <h2>Jennifer Lee</h2>
+  <p>Diretora de Frozen</p>
+</div>
+<div class="card">
+  <img src="diretor.png" alt="Brian Free" width="200" height="200">
+  <h2>Brian Free</h2>
+  <p>Diretor de Carros</p>
+</div>
+
+<div class="card">
+  <img src="diretor4.png" alt="Brian Free" width="200" height="200">
+  <h2>Brad Bird</h2>
+  <p>Diretor de Ratatouille</p>
+</div>
+</section>
+    </section>
+<section class="pai">
+    <div class="container">
+        <h1 class="titulo">Gestão</h1>
+        <div class="diretora">
+            <div class="foto">
+              <img src="sobre.png" alt="Brian Free" width="200" height="200">
+            </div>
+            <p class="ddiretora">
+                Diretor princpial da Disney
+            </p>
+        </div>
+        <div class="coordenadoras">
+            <div class="coordenadora">
+                <div class="nome">James Gorman</div>
+                <div class="funcao">Presidente Executivo</div>
+            </div>
+            <div class="coordenadora">
+                <div class="nome">Bob Iger</div>
+                <div class="funcao">Sucessor</div>
+            </div>
+        </div>
+    </div>
+</section>
     <style type="text/css">
          .pai2{
   width: 100%;
@@ -184,6 +233,92 @@ text-align: center;
     border-color: grey;
     z-index: -1;
 }
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Título */
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+/* Diretora */
+.diretora {
+    background-color: #00c4cc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-diretora {
+    background-color: #ffb300;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-image: url(sobre.png);
+}
+
+.ddiretora {
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Coordenadoras */
+.coordenadoras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.coordenadora {
+    background-color: #00c4cc;
+    flex: 1 1 calc(50% - 20px); /* Cada bloco ocupa metade com gap entre eles */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    min-width: 220px;
+}
+
+.nome {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.funcao {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+
     </style>
       <footer class="footer">
          <a name="text4"></a>
