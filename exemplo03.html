@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> <img src="disney.png"> </div>
+        <div class="menu">
+            <div> <a href="#text1">Home </a></div>
+            <div> <a href="#text2">Sobre </a></div>
+            <div><a href="#text3">Filmes </a></div>
+            <div><a href="#text4">Contato </a></div>
+        </div>
+    </header>
+    <section class="main">
+        <a name="text1"></a>
+        <section class="banner"> </section>
+        <div class="slogan">Uma empresa de tradição e qualidade</div>
+    </section>
+    <div class="item-1">Sobre</div>
+     <a name="text2"></a>
+    <section class="pai">
+    	<div class="item-2">
+    		<p>The Walt Disney Company, conhecida simplesmente como Disney</p> <p>é uma companhia multinacional estadunidense de mídia de massa sediada no Walt Disney Studios </p> <p> em Burbank, Califórnia. Em dezembro de 2017 após a compra da 21st Century Fox </p> <p> a empresa se tornou o maior conglomerado de mídia e entretenimento do </p> <p> planeta por receita, passando assim a Comcast.</p> <p> A Disney foi fundada em 16 de outubro de 1923 </p> <p> por Walt Disney e Roy Oliver Disney com o nome de Disney Brothers </p> <p>Cartoon Studios e estabeleceu-se como pioneira na indústria de animação </p> até diversificar seus produtos para filmes em live-action</p> <p> redes de televisão e parques temáticos. A companhia também operou </p> <p> sob o nome Walt Disney Studio e Walt Disney Productions. </p>
+    	</div>
+    	<div class="item-3">
+    		<img src="sobre.png" height="550" width="550">
+    	</div>
+    </section>
+    <div class="item-4">Filmes em destque</div>
+    <section class="pai2">
+         <a name="text3"></a>
+       <div class="item">
+            <img src="marquin.png" height="100" width="200">
+       </div>    
+       <div class="item">
+            <img src="frozen.png" height="100" width="200">
+       </div>
+       <div class="item">
+            <img src="cinderela.png" height="100" width="200">
+       </div>
+       <div class="item">
+            <img src="ratatouile.png" height="100" width="200">
+       </div>
+    </section>
+    <style type="text/css">
+         .pai2{
+  width: 100%;
+  height:auto;
+  background:#200A3F;
+  padding:90px;
+
+  display: flex;
+  flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+ 
+}
+.item{
+  width:200px;
+  height:100px;
+  border-radius:3px;
+  margin:3px;
+  padding:5px;
+  box-sizing:border-box;
+}
+
+.item-4 {
+    text-align: Center;
+     font-size: 1.5rem;
+ background:#200A3F;  }
+
+ .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d223b; /* Azul escuro */
+    color: #fff;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo-box {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.about p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact {
+    text-align: left;
+}
+
+.contact h3, .social h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.contact ul {
+    list-style: none;
+    line-height: 1.8;
+}
+.social .icons span {
+    margin-right: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.copyright {
+    background-color: #0b1a2f;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+    </style>
+      <footer class="footer">
+         <a name="text4"></a>
+        <div class="logo">
+            <div class="logo-box">
+                <img src="disney.png" width="50" height="50"> 
+            </div>
+        </div>
+        <div class="about">
+            <p>Walt Disney World Resort, comumente conhecido como Walt Disney World e informalmente Disney World, é o resort de entretenimento mais visitado em todo o mundo, situado em Bay Lake, Flórida, próxima a cidade de Orlando</p>
+        </div>
+        <div class="contact">
+            <h3>Contato</h3>
+            <ul>
+                <li><a href="https://wa.me/551147002835">📞 (11) 4700-2835 </a></li>
+                <li><a href="https://www.google.com/maps/d/viewer?hl=en&ie=UTF8&msa=0&ll=28.226970000000005%2C-83.64990200000001&spn=6.77308%2C9.338379&z=6&source=embed&mid=18HgKb5gW2N1hEduyBsvYoOn9Nzg">🏠 Orlando, na Flórida.</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <h3>Siga nossas Redes Sociais</h3>
+            <div class="icons">
+                <span><a href="https://www.facebook.com/DisneyMoviesBrasil/?locale=pt_BR">f </a></span>
+                <span><a href="https://www.facebook.com/DisneyMoviesBrasil/?locale=pt_BR">📸 </a></span>
+            </div>
+            <div class="copyright">
+                Criadores do site: Ytalo e Vicente 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
